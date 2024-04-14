@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <style>
+ 
+ 
+.submit{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+ body  {
+  background-image: url("../static/images/so.jpeg");
+  background-color: #cccccc;
+}
+</style>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+  </head>
+     <body> 
+        <div class="background">
+           <div class="bg"></div>
+        <div align="center" style="opacity:1.0;" >
+          <form action="{{ url_for('abstract')}}">
+                <table cellpadding="20" cellspacing="1" border="0" width="70%">
+                    <tr><td colspan="4"></td></tr>
+                     <tr><td colspan="4"></td></tr>
+                     
+                    
+                    <tr><td colspan="4" align="center"><h2><b><i>Login Here</b></i></h2></td></tr>
+                <tr><td width="20%"></td><td><strong><font color="grey">Enter Your Username</font></strong></td><td><input type="text" name="txt_uid"></td><td width="20%"></td></tr>
+                <tr><td width="20%"></td><td><strong><font color="grey">Enter your Password</font></strong></td> <td><input type="password" name="txt_pass"></td><td width="20%"></td></tr>
+                <tr><td colspan="4" align="center"><input type="submit" class="submit" value="SUBMIT"></td></tr>
+                    
+                </table>    
+            </form>
+            
+        
+            </div>
+        </div>
+    </body>
+</html>
